@@ -1,0 +1,15 @@
+[logging]
+# Logging:
+# logfile = full path to log file
+# loglevel = info,warn,debug
+logfile = /var/log/thermCleanup
+loglevel = debug
+logrotation = midnight
+logcount = 3
+
+[main]
+mysqlUser = <user>
+mysqlPass = <pass>
+mysqlDatabase = thermostat
+mysqlHost = localhost
+mysqlPort = 3306
