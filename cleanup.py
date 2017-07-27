@@ -141,3 +141,4 @@ def cleanup(table, colname, name, timeframe):
 cleanup("ControllerStatus", "lastStatus", "ControllerStatus", 90)
 cleanup("SensorData", "timeStamp", "SensorData", 90)
 cleanup("ThermostatLog", "timeStamp", "ThermostatLog", 90)
+cleanup("Events", "timestamp", "Events", 90)
