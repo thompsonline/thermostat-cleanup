@@ -9,7 +9,7 @@ logcount = 3
 
 [main]
 mysqlUser = <user>
-mysqlPass = <pass>
-mysqlDatabase = thermostat
+mysqlPass = <password>
+mysqlDatabase = Thermostat
 mysqlHost = localhost
 mysqlPort = 3306
